@@ -7,24 +7,24 @@ const LOCATION = 'MB';
 const INSTITUTES = {
   labaid: {
     label: 'Lab Aid',
-    reception: '01700000000',
+    reception: '01737826436',
     image: 'https://placehold.co/400x160',
 
     doctors: [
       {
-        name: '👨‍⚕️ Doctor A',
-        id: 'doc_a',
-        serials: [1, 2, 3, 4, 5]
+        name: '👨‍⚕️ এইচ. এম. এনামুল হক',
+        id: 'enamul',
+        serials: [4, 8, 13]
       },
       {
-        name: '👩‍⚕️ Doctor B',
-        id: 'doc_b',
-        serials: [10, 11, 12, '15 H', '20 P']
+        name: '👨‍⚕️ শহিদুল ইসলাম খান',
+        id: 'sohidul',
+        serials: [14, 20, 25]
       },
       {
-        name: '👨‍⚕️ Doctor C',
-        id: 'doc_c',
-        serials: [1, 5, 9]
+        name: '👨‍⚕️ মোহাম্মদ জিয়াউর রহমান',
+        id: 'ziaur',
+        serials: [13, 15]
       }
     ]
   }
