@@ -61,7 +61,7 @@ const App = () => {
   const doctorObj = currentInst.doctors.find(d => d.id === selectedDoctor);
 
   const handleGenerate = () => {
-    if (!patientName || !patientAge || !phoneNumber || !selectedDoctor || !selectedSerial || !attendTime) {
+    if (!patientName || !phoneNumber || !selectedDoctor || !selectedSerial || !attendTime) {
       setOutput({ error: 'Please fill all fields' });
       return;
     }
