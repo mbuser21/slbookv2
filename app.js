@@ -8,7 +8,7 @@ const INSTITUTES = {
   labaid: {
     label: 'Lab Aid',
     reception: '01737826436',
-    image: 'https://placehold.co/400x160',
+    image: 'la.png',
 
     doctors: [
       {
