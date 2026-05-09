@@ -149,7 +149,7 @@ const App = () => {
           onChange={e => setPatientAge(e.target.value)}
         />
 
-        <input className="field" placeholder="Phone"
+        <input type="number" className="field" placeholder="Phone"
           value={phoneNumber}
           onChange={e => setPhoneNumber(e.target.value)}
         />
@@ -186,7 +186,7 @@ const App = () => {
           </div>
         )}
 
-        <input className="field" placeholder="Attend Time"
+        <input type="number" className="field" placeholder="Attend Time"
           value={attendTime}
           onChange={e => setAttendTime(e.target.value)}
         />
